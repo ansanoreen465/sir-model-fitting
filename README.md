@@ -9,3 +9,5 @@ Mini-project in Python implementing the core workflow of infectious-disease mode
 
 **Tools:** Python (NumPy, SciPy, Matplotlib). The fitted parameters perfectly recovered the true values used to generate the data.
 ![SIR Model](sir_fit.png)
+### Extension: SEIR Model
+I also implemented an extended SEIR (Susceptible-Exposed-Infectious-Recovered) model in `seir_fit.py`, adding a latent "Exposed" compartment. This demonstrates the ability to evaluate competing hypotheses (SIR vs. SEIR) when fitting to outbreak data.
