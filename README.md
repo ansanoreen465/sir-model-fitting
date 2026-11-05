@@ -8,6 +8,9 @@ Mini-project in Python implementing the core workflow of infectious-disease mode
 3. Estimated transmission (beta) and recovery (gamma) parameters by maximum likelihood using `scipy.optimize`.
 
 **Tools:** Python (NumPy, SciPy, Matplotlib). The fitted parameters perfectly recovered the true values used to generate the data.
-![SIR Model](sir_fit.png)
+
+![SIR Model Fit](sir_fit.png)
+*Figure: Synthetic outbreak data (blue dots) and the fitted SIR model (orange line). The maximum likelihood estimation recovered the true parameters (beta=0.40, gamma=0.10).*
+
 ### Extension: SEIR Model
 I also implemented an extended SEIR (Susceptible-Exposed-Infectious-Recovered) model in `seir_fit.py`, adding a latent "Exposed" compartment. This demonstrates the ability to evaluate competing hypotheses (SIR vs. SEIR) when fitting to outbreak data.
