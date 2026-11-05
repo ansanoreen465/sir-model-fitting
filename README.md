@@ -8,3 +8,4 @@ Mini-project in Python implementing the core workflow of infectious-disease mode
 3. Estimated transmission (beta) and recovery (gamma) parameters by maximum likelihood using `scipy.optimize`.
 
 **Tools:** Python (NumPy, SciPy, Matplotlib). The fitted parameters perfectly recovered the true values used to generate the data.
+![SIR Model](sir_fit.png)
